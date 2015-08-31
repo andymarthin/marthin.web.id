@@ -3,16 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Andy Marthin Christo</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 </head>
 <body>
     <div class="home">
+<!--       insert video background-->
         <video autoplay loop id="bgvid" muted>
            <source src="video/RainyCity.webm" type="video/webm">
             <source src="video/RainyCity.mp4" type="video/mp4">
         </video>
         <div class="container">
             <h1>ANDY MARTHIN CHRISTO</h1>
+            <h2 id="sliderText">I am <i class="typed"></i></h2>
+            <ul id="mainMenu">
+                <li id="blog"><a href="http://blog.marthin.web.id">< Blog</a></li>
+                <li id="about"><a href="http://andy.marthin.web.id">About ></a></li>
+            </ul>
         </div>  
     </div>
+<!--    call jquery-->
+    <script src="assets/js/jquery.min.js"></script>
+<!--call typed.js-->
+    <script src="assets/js/typed.min.js"></script>
+    <script>
+  $(function(){
+      $(".typed").typed({
+        strings: ["Web Developer.", "Anime Lover.","Linux User."],
+        contentType: 'html',
+        // typing speed
+        typeSpeed: 77,
+        // time before backspacing
+        backDelay: 3000,
+        // loop
+        loop: true
+      });
+  });
+</script>
 </body>
 </html>
