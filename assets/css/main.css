@@ -73,11 +73,11 @@ ul {
   list-style: none;
 
 }
-ul#mainMenu {
+ul#mainMenu, ul#sosial {
   margin: 20px auto;
   display: table;
 }
-ul#mainMenu li, ul#sosial {
+ul#mainMenu li{
   float: left;
   margin: 0 20px;
 }
@@ -102,9 +102,19 @@ li#mainMenu {
     padding:20px;
     letter-spacing:0.15em;
 }
-}#mainMenu li a:hover{
-    background-color:rgba(255,255,255,0.9);
+#mainMenu li a:hover{
+    background-color:rgba(255,255,255,0.3);
 }
 ul#mainMenu li a{
     color:#fff;
+}
+ul#sosial li {
+  float: left;
+  margin: 0 7px;
+}
+ul#sosial li a {
+    color:#333;
+}
+ul#sosial li a:hover {
+    color:dodgerblue;
 }
