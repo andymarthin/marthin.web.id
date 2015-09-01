@@ -17,6 +17,9 @@ video#bgvid {
   z-index: -200;
   background-size: cover;
   -webkit-filter: blur(10px) saturate(1);
+  -o-filter: blur(10px) saturate(1);
+  -moz-filter: blur(10px) saturate(1);
+  filter: blur(10px) saturate(1);
 }
 body {
     color: #fff;
