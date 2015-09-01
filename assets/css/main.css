@@ -118,6 +118,37 @@ ul#sosial li a {
 ul#sosial li a:hover {
     color:dodgerblue;
 }
+
+@media screen and (max-device-width: 800px) {
+    #background-image {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -200;
+        background: url(../img/poster.jpg) #000 no-repeat center center fixed;
+        background-size: cover;
+        -webkit-filter: blur(10px) saturate(1);
+        -o-filter: blur(10px) saturate(1);
+        -moz-filter: blur(10px) saturate(1);
+        filter: blur(10px) saturate(1);
+    }
+    #bgvid {
+        display: none;
+    }
+    h1 {
+  line-height: 1em;
+  font-weight: 500;
+  font-size: 3em;
+  text-shadow: 0px 0px 0 rgb(139,139,139),1px 1px 0 rgb(124,124,124),2px 2px 0 rgb(110,110,110),3px 3px 0 rgb(96,96,96),4px 4px 3px rgba(0,0,0,0.1),4px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
+  margin: 5px;
+  letter-spacing: 0.1em;
+}
+}
+
 @media(max-width:640px) {
 h1 {
   line-height: 1em;
