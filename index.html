@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This is portal web of Andy Marthin Christo">
     <meta name="author" content="Andy Marthin Christo">
     <meta name="keywords" content="Web Developer, Linux User, Anime Lover, blog marthin, about andy marthin christo">
     <title>Andy Marthin Christo</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main.min.css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="home">
@@ -60,22 +62,9 @@
         </div>  
     </div>
 <!--    call jquery-->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <!--call typed.js-->
-    <script src="assets/js/typed.min.js"></script>
-    <script>
-  $(function(){
-      $(".typed").typed({
-        strings: ["Web Developer.", "Anime Lover.","Linux User."],
-        contentType: 'html',
-        // typing speed
-        typeSpeed: 77,
-        // time before backspacing
-        backDelay: 3000,
-        // loop
-        loop: true
-      });
-  });
-</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
 </body>
 </html>
